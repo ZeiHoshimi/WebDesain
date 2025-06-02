@@ -485,6 +485,36 @@ button.copy-btn:hover {
     font-size: 1rem;
 }
 
+/* Komen */
+#komen {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+}
+
+#comment-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 10px;
+}
+
+#comments-list {
+    margin-top: 20px;
+    max-width: 600px;
+    list-style: none;
+    padding: 0;
+}
+
+#comments-list li {
+    background: white;
+    margin-bottom: 12px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 /* FOOTER */
 footer {
     background-color: #f9f9f9;
@@ -551,7 +581,7 @@ footer {
     height: 100vh;
     transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     overflow: visible;
-    z-index: 10;
+    z-index: 20;
 }
 
 .sidebar:hover {
@@ -655,9 +685,7 @@ main {
     transition: margin-left 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.sidebar:hover~main {
-    margin-left: 220px;
-}
+
 
 /* Header */
 header {
@@ -679,6 +707,10 @@ header {
     animation: slideDown 0.5s ease forwards;
     opacity: 0;
     transform: translateY(-20px);
+}
+
+.sidebar:hover~main {
+    margin-left: 220px;
 }
 
 .sidebar:hover~header {
@@ -744,6 +776,9 @@ footer {
 
 /* FOOTER EMD */
 
+
+/* ===================================================================================== */
+
 /* Floating card animation */
 @keyframes floatUpDown {
 
@@ -778,7 +813,6 @@ footer {
     }
 }
 
-/* ===================================================================================== */
 
 /* ===================================================================================== */
 /* Responsive */
@@ -859,6 +893,11 @@ footer {
         text-align: center;
     }
 
+    #editor {
+        width: 95%;
+        height: 150px;
+    }
+
     .sidebar {
         position: fixed;
         width: 45px !important;
@@ -870,13 +909,8 @@ footer {
         flex-direction: row;
         padding: 8px 12px;
         justify-content: space-around;
-        z-index: 1100;
+        z-index: 1300;
         transition: width 0.2s ease;
-    }
-
-    #editor {
-    width: 93%;
-    height: 150px;
     }
 
     .sidebar:hover {
