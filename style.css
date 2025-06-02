@@ -714,7 +714,7 @@ header {
 }
 
 .sidebar:hover~header {
-    left: 220px;
+    left: 200px;
 }
 
 /* Card grid */
