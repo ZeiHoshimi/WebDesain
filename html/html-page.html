@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Minimalis Modern Sidebar with Animations</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/index-html.css">
+</head>
+
+<body>
+
+    <div class="sidebar" role="navigation" aria-label="Sidebar Navigation">
+        <nav>
+            <a href="/index.html" data-tooltip="Dashboard" aria-label="Dashboard" tabindex="0">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8v-10h-8v10zm0-18v6h8V3h-8z" />
+                </svg>
+                <span>Home</span>
+            </a>
+
+            <a href="#materi-1" data-tooltip="HTML" aria-label="HTML" tabindex="0">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" width="24" height="24" aria-hidden="true">
+                    <path d="M3 4l3 16 6 2 6-2 3-16H3z" />
+                    <path d="M9.5 8h5M8 12h8M7 16h10" />
+                </svg>
+                <span> Apa Itu HTML?</span>
+            </a>
+
+            <a href="#materi-2" data-tooltip="HTML" aria-label="HTML" tabindex="0">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" width="24" height="24" aria-hidden="true">
+                    <path d="M3 4l3 16 6 2 6-2 3-16H3z" />
+                    <path d="M9.5 8h5M8 12h8M7 16h10" />
+                </svg>
+                <span>Struktur HTML</span>
+            </a>
+
+            <a href="#materi-3" data-tooltip="HTML" aria-label="HTML" tabindex="0">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" width="24" height="24" aria-hidden="true">
+                    <path d="M3 4l3 16 6 2 6-2 3-16H3z" />
+                    <path d="M9.5 8h5M8 12h8M7 16h10" />
+                </svg>
+                <span>Elemen HTML</span>
+            </a>
+
+            <!-- CSS -->
+            <a href="/html/css-page.html" data-tooltip="CSS" aria-label="CSS" tabindex="0">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" width="24" height="24" aria-hidden="true">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                    <line x1="3" y1="9" x2="21" y2="9" />
+                    <line x1="9" y1="21" x2="9" y2="9" />
+                </svg>
+                <span>Lanjut ke CSS</span>
+            </a>
+
+        </nav>
+    </div>
+    <main>
+        <section id="materi-1">
+            <h1 style="font-size: 2.5rem; margin-bottom: 1.5rem; margin-left: 0;">📘 Materi Dasar HTML</h1>
+            <h2>❓ Materi 1: Apa Itu HTML?</h2>
+            <p class="green"> HTML (HyperText Markup Language) adalah bahasa markah standar yang digunakan untuk membuat
+                dan
+                menyusun
+                halamanweb. HTML berfungsi untuk menentukan struktur dasar sebuah halaman, seperti judul, paragraf,
+                gambar,
+                tautan,
+                tabel, dan elemen-elemen lainnya agar dapat ditampilkan dengan baik di browser. HTML tidak mengatur
+                tampilan
+                visual secara langsung, tetapi lebih fokus pada kerangka dan makna konten. Sebagai contoh, kode HTML
+                sederhana dapat menampilkan judul dan paragraf menggunakan tag seperti
+                <code>&lt;h1&gt;</code> dan <code>&lt;p&gt;</code>. HTML juga memungkinkan penyematan media seperti
+                gambar
+                dan video, serta membuat
+                tautan antar halaman(hyperlink), sehingga menjadi fondasi utama dari semua situs web.
+            </p>
+
+        </section>
+
+        <section id="materi-2">
+            <h2>🧱 Materi 2: Struktur Dasar HTML</h2>
+
+            <p>HTML adalah bahasa standar untuk membuat halaman web. Dengan HTML, kita bisa menyusun teks, gambar,
+                video,
+                dan elemen lainnya.</p>
+            <p><strong>Penting:</strong> Setiap elemen HTML memiliki struktur pembuka dan penutup!</p>
+            <p>Kunjungi sumber belajar terbaik di <a href="https://www.youtube.com/c/WebProgrammingUNPAS"
+                    target="_blank"><b>YouTube WPU</b></a>.</p>
+
+            <h3>Contoh Kode HTML</h3>
+            <pre class="red"><button class="copy-btn" aria-label="Salin kode">&copy;</button><code>
+<b>&lt;!DOCTYPE html> </b>
+<b>&lt;html></b>
+  <b>&lt;head></b>
+   <b> &lt;title> </b> Judul Halaman <b>&lt;/title></b>
+  <b>&lt;/head></b>
+  <b>&lt;body></b>
+    <b>&lt;h1></b> Halo Dunia! <b>&lt;/h1></b>
+    <b>&lt;p></b> Ini paragraf pertama saya. <b>&lt;/p></b>
+  <b>&lt;/body></b>
+<b>&lt;/html></b>
+</code></pre>
+            <a href="https://codepen.io/pen" class="L-btn" target="_blank">coba code</a>
+
+            <h3>Penjelasan</h3>
+            <ul class="green">
+                <li><code>&lt;!DOCTYPE html></code> = Menandakan bahwa ini adalah dokumen HTML5</li>
+                <li><code>&lt;html></code> = Pembungkus seluruh dokumen HTML</li>
+                <li><code>&lt;head></code> = Berisi informasi untuk browser (judul, meta, link CSS, dll)</li>
+                <li><code>&lt;title></code> = Menentukan judul tab browser</li>
+                <li><code>&lt;body></code> = Tempat konten utama ditampilkan (tulisan, gambar, tombol, dll)</li>
+                <li><code>&lt;h1></code> = Heading/judul besar</li>
+                <li><code>&lt;p></code> = untuk membuat Paragraf</li>
+            </ul>
+        </section>
+
+
+        <section id="materi-3">
+            <h2>🧾 Materi 3: Elemen Teks dalam HTML </h2>
+            <p class="green">Elemen teks dalam HTML adalah tag untuk menampilkan dan mengatur teks, seperti
+                <code>&lt;h1>–&lt;h6></code> untuk judul, <code>&lt;p></code> untuk paragraf, <code>&lt;strong></code>
+                untuk
+                teks tebal, <code>&lt;em></code> untuk teks miring, dan <code>&lt;br></code> untuk pindah baris. Elemen
+                ini
+                membantu membuat teks lebih terstruktur dan mudah dibaca.
+            </p>
+
+            <h3>🔤 1. Heading (Judul)</h3>
+            <p class="green"> HTML memiliki 6 tingkatan heading yang berfungsi untuk memberi struktur dan hierarki pada
+                judul atau subjudul di halaman web. Tag heading terdiri dari <code>&lt;h1></code> hingga
+                <code>&lt;h6></code>, di mana <code>&lt;h1></code> adalah tingkat tertinggi (paling penting) dan
+                <code>&lt;h6></code> paling rendah. Heading membantu pengguna memahami urutan informasi dan memudahkan
+                mesin
+                pencari mengindeks konten dengan benar.
+            </p>
+
+            <pre class="red"><button class="copy-btn" aria-label="Salin kode">&copy;</button><code>
+<b>&lt;h1></b> Judul Besar <b>&lt;/h1></b> 
+<b>&lt;h2></b> Sub Judul <b>&lt;/h2></b> 
+<b>&lt;h3></b> Judul Kecil <b>&lt;/h3></b> 
+<b>&lt;h4></b> Judul Lebih Kecil <b>&lt;/h4></b> 
+<b>&lt;h5></b> Judul Sangat Kecil <b>&lt;/h5></b> 
+<b>&lt;h6></b> Paling Kecil <b>&lt;/h6></b> 
+        </code></pre>
+            <a href="https://codepen.io/pen" class="L-btn" target="_blank">coba code</a>
+
+            <h3>📄 2. Paragraf</h3>
+            <p class="green">Fungsi paragraf dalam HTML adalah untuk menampilkan teks dalam bentuk paragraf menggunakan
+                tag
+                <code>&lt;p></code>. Tag ini memisahkan blok teks agar lebih rapi, terstruktur, dan mudah dibaca oleh
+                pengguna. Setiap paragraf akan otomatis diberi jarak oleh browser untuk membedakan satu paragraf dengan
+                yang
+                lain.
+            </p>
+            <pre class="red"><button class="copy-btn" aria-label="Salin kode">&copy;</button><code>
+<b>&lt;p></b> Ini adalah sebuah paragraf.<b>&lt;/p></b> 
+<b>&lt;p></b> Paragraf lainnya.<b>&lt;/p></b> 
+        </code></pre>
+            <a href="https://codepen.io/pen" class="L-btn" target="_blank">coba code</a>
+
+            <h3>💪 3. Teks Tebal dan Miring</h3>
+            <p class="green">Fungsi teks tebal dan miring dalam HTML adalah untuk memberi penekanan atau penegasan pada
+                bagian tertentu dari teks. Teks tebal dibuat dengan tag <code>&lt;strong></code> atau
+                <code>&lt;b></code>,
+                dan digunakan untuk menandai informasi penting. Teks miring dibuat dengan tag <code>&lt;em></code> atau
+                <code>&lt;i></code>, dan digunakan untuk menekankan atau menggarisbawahi makna kata dalam konteks
+                kalimat.
+                Selain memberi makna visual, tag <code>&lt;strong></code> dan <code>&lt;em></code> juga dikenali oleh
+                mesin
+                pencari dan pembaca layar, sehingga penting untuk aksesibilitas.
+            </p>
+            <pre class="red"><button class="copy-btn" aria-label="Salin kode">&copy;</button><code>
+<b>&lt;p></b> Ini adalah <b>&lt;strong></b> teks penting <b>&lt;/strong></b>.<b>&lt;/p></b>
+<b>&lt;p></b> Ini adalah <b>&lt;em></b> teks miring <b>&lt;/em></b>.<b>&lt;/p></b>
+        </code></pre>
+
+            <h3>🔗 4. Link (Tautan)</h3>
+            <p class="green">Link atau tautan dalam HTML digunakan untuk menghubungkan satu halaman web dengan halaman
+                lain,
+                baik di dalam situs yang sama maupun ke situs lain, menggunakan tag <code>&lt;a></code>. Atribut href di
+                dalam tag tersebut menentukan alamat tujuan tautan, dan teks di antara tag <code>&lt;a></code> akan
+                muncul
+                sebagai teks yang bisa diklik. Tautan ini penting untuk navigasi dan mempermudah pengguna menjelajahi
+                konten
+                di web.</p>
+            <pre class="red"><button class="copy-btn" aria-label="Salin kode">&copy;</button><code>
+<b>&lt;a></b> href="https://www.google.com">Kunjungi Google<b>&lt;/a></b>
+        </code></pre>
+            <a href="https://codepen.io/pen" class="L-btn" target="_blank">coba code</a>
+
+            <h3>📌 5. Garis Horizontal & Baris Baru</h3>
+            <p class="green">Fungsi garis horizontal dan baris baru dalam HTML adalah untuk mengatur pemisahan dan tata
+                letak teks. Tag <code>&lt;hr></code> digunakan untuk membuat garis horizontal yang berfungsi sebagai
+                pemisah
+                antar bagian konten, sedangkan tag <code>&lt;br></code> digunakan untuk memindahkan teks ke baris baru
+                tanpa
+                membuat paragraf baru. Keduanya membantu memperjelas struktur dan tampilan halaman web.</p>
+            <pre class="red"><button class="copy-btn" aria-label="Salin kode">&copy;</button><code>
+<b>&lt;p></b>Kalimat pertama.<b>&lt;br/></b>Kalimat kedua di bawah.<b>&lt;/p></b>
+<b>&lt;hr/></b>
+<b>&lt;p></b>Paragraf setelah garis pemisa<b>&lt;/p></b>
+        </code></pre>
+            <a href="https://codepen.io/pen" class="L-btn" target="_blank">coba code</a>
+        </section>
+        <footer>
+            &copy;coming soon
+        </footer>
+    </main>
+
+
+</body>
+
+</html>
