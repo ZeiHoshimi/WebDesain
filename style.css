@@ -909,7 +909,7 @@ footer {
         flex-direction: row;
         padding: 8px 12px;
         justify-content: space-around;
-        z-index: 1300;
+        z-index: 9999;
         transition: width 0.2s ease;
     }
 
