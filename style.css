@@ -874,6 +874,11 @@ footer {
         transition: width 0.2s ease;
     }
 
+    #editor {
+    width: 93%;
+    height: 150px;
+    }
+
     .sidebar:hover {
         width: 300px !important;
     }
