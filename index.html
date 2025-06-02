@@ -58,6 +58,15 @@
         </svg>
         <span>JavaScript</span>
       </a>
+
+      <!-- Komen -->
+      <a href="#komen" data-tooltip="Komen" aria-label="Komen" tabindex="0">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" width="24" height="24" aria-hidden="true">
+          <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
+        </svg>
+        <span>Komen</span>
+      </a>
     </nav>
   </div>
 
@@ -228,8 +237,17 @@ p {
       <button class="L-btn" onclick="haloNama()">Sapa Saya</button>
       <div id="output"></div>
     </section>
+
+        <!-- Kolom Komentar -->
+    <section id="komen">
+      <h2>Kolom Komentar</h2>
+      <form id="comment-form" aria-label="Form tambah komentar">
+        <textarea id="comment-text" placeholder="Tulis komentar Anda..." required aria-required="true"></textarea>
+        <button type="submit" class="L-btn">Kirim</button>
+      </form>
+      <ul id="comments-list" aria-live="polite" aria-atomic="true"></ul>
+    </section>
   </main>
-  
   <footer>
     &copy; 2025 Belajar Coding. All rights reserved.
   </footer>
