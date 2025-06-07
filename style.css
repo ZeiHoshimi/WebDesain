@@ -906,6 +906,7 @@ footer {
     main {
         margin-left: 0 !important;
         padding: 24px 16px 80px;
+         padding-bottom: 60px;
     }
 
     header {
